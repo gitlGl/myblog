@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 STATIC_URL = '/static/'
-# ¼ÓÈëÏÂÃæµÄÅäÖÃ
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Application definition
 
@@ -77,13 +77,28 @@ TEMPLATES = [
 WSGI_APPLICATION = 'myblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+'''
+DATABASES = {
+      'default': {
+      'ENGINE': 'django.db.backends.mysql',
+     'NAME':'blog',
+     'USER': 'liu',
+      'PASSWORD': '95461284',
+      'HOST': 'localhost',
+      'PORT': '3306',
+      }
+ }
+
+
+
+
 
 
 # Password validation
