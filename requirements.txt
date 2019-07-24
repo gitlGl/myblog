@@ -3,4 +3,4 @@ Django==2.1.1.0
 django-tinymce==2.8.0
 pytz==2019.1
 uWSGI==2.0.18
-markdown
+pymysql
