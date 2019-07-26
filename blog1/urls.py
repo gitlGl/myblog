@@ -8,7 +8,7 @@ from django.conf.urls import url
 
 app_name = 'blog1'
 urlpatterns = [
-    url(r'^api/$', bv.index, name='index'),
+    url(r'^$', bv.index, name='index'),
     url('index', bv.index, name='index'),
     url(r'^post/(?P<pk>[0-9]+)/$', bv.detail, name='detail'),
 
