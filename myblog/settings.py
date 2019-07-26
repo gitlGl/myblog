@@ -83,7 +83,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'myblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -97,14 +97,13 @@ DATABASES = {
       'ENGINE': 'django.db.backends.mysql',
      'NAME':'blog',
      'USER': 'root',
-      'PASSWORD': 'lingl.',
-      'HOST': '47.106.79.122',
-      
+      'PASSWORD': '**',
+      'HOST': '**',
       'PORT': '3306',
-      
       }
  }
 
+'''
 
 
 
