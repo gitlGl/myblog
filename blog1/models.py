@@ -23,7 +23,7 @@ class Category(models.Model):
     """
     name = models.CharField(max_length=100)
     def get_absolute_url(self):
-        print(self.pk)
+        #print(self.pk)
         return reverse('blog1:Category_page', kwargs={'category1': self.pk})
 
 '''  

@@ -4,7 +4,7 @@ from blog1.models import Post,Category
 import time
 def index(request):#hjfhjfkljhlfkgn lgbnl
 
-    return render(request, 'blog1/index.html')
+    return render(request,'blog1/index.html')
 
 
 def bowen(request):
