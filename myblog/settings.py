@@ -29,6 +29,8 @@ SECRET_KEY = 'bpv59-0*vv^%e#g838jo4)p$g+7oe6to72nd3=6!m6w2gquhmn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
+
 ALLOWED_HOSTS = ['*']
 
 STATIC_URL = '/static/'
@@ -97,7 +99,9 @@ DATABASES = {
      'USER': 'root',
       'PASSWORD': 'lingl.',
       'HOST': '47.106.79.122',
+      
       'PORT': '3306',
+      
       }
  }
 
