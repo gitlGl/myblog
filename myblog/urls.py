@@ -26,3 +26,4 @@ urlpatterns = [
     #path('index/', include('blog1.urls')),
 
 ]
+
