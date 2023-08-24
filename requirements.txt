@@ -2,5 +2,5 @@
 Django==2.2.24
 django-tinymce==2.8.0
 pytz==2019.1
-uWSGI==2.0.18
+uWSGI==2.0.22
 pymysql
